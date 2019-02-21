@@ -1,4 +1,5 @@
-//Majors, Minors, and Programs of Study for Centre College
+//Majors, Minors, and Programs of Study for Centre College, from
+//https://www.centre.edu/majors-minors/
 
 //Set up D3 to be useable in browser
 var s = document.createElement("script");
