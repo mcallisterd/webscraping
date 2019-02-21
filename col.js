@@ -10,6 +10,11 @@ body.after(s);
 
 //Gets all of the <li> elements which are children of the unordered list
 //with class list-three-col
+
 var list = d3.selectAll("ul.list-three-col li").nodes();
 //Prints out the text
 list.forEach(function(e){console.log(e.innerText)});
+
+//You can also use this code, it will do the same thing!
+var list = d3.selectAll("ul.list-three-col").nodes();
+list[0].innerText
